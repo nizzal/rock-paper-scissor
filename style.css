@@ -1,0 +1,61 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    text-align: left;
+    align-items: flex-start;
+    margin: 10px 0;
+    width: auto;
+}
+
+.container p {
+    font-size: 14px;
+}
+.container .start {
+    padding: 10px;
+}
+
+.start button {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.selection,
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.selection p,
+.score p {
+    margin: 0 40px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button {
+    cursor: pointer;
+    width: auto;
+    border: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 10px;
+}
